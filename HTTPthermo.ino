@@ -1,20 +1,8 @@
 /*
-  Web Server
- 
- A simple web server that shows the value of the analog input pins.
- using an Arduino Wiznet Ethernet shield. 
- 
- Circuit:
- * Ethernet shield attached to pins 10, 11, 12, 13
- * Analog inputs attached to pins A0 through A5 (optional)
- 
- created 18 Dec 2009
- by David A. Mellis
- modified 4 Sep 2010
- by Tom Igoe
- 
- */
-#define DS1631_ADDR 0x4D 
+Dieser Code basiert auf den Arduino-libs und ihren Beispielen.
+*/
+
+#define DS1631_ADDR 0x4D //7bit I2C addr des DS1631
 
 #include <Wire.h>
 #include <SPI.h>
