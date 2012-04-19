@@ -60,7 +60,7 @@ void loop()
         Wire.available(); // 2. byte
         int Tl = Wire.read(); // lo byte lesen
         // Temperatur umrechnen
-        if(Th>=0x80) //sig detect um negatives vorzeichen der 12bit zu erkennen
+        if(Th>=0x80) //sign detect um negatives vorzeichen der 12bit zu erkennen
           Th = Th - 256;
         int T_dec=(10*(100*(Tl/16)))/16; // Kommastelle
         //
