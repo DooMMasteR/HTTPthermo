@@ -1,0 +1,5 @@
+HTTPthermo ist ein einfacher Webserver für Arduino+Ethershield.
+
+Er konfiguriert einen DS1631 und ließt ihn durch einen HTTP-request getriggert aus und sendet eine einfache HTTP-response.
+
+Beispiel für eine Antwort: "Temperature: 18.937°C"
